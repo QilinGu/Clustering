@@ -1,0 +1,46 @@
+How many reviews in amazon_baby_subset.gl contain the word perfect?
+2955
+
+Consider the feature_matrix that was obtained by converting our data to NumPy format.
+How many features are there in the feature_matrix?
+194
+
+Assuming that the intercept is present, how does the number of features in feature_matrix relate to the number of features in the logistic regression model? Let x = [number of features in feature_matrix] and y = [number of features in logistic regression model].
+b
+
+Run your logistic regression solver with provided parameters.
+As each iteration of gradient ascent passes, does the log-likelihood increase or decrease?
+Increase 
+
+
+We make predictions using the weights just learned.
+How many reviews were predicted to have positive sentiment?
+25126
+
+What is the accuracy of the model on predictions made above? (round to 2 digits of accuracy)
+0.75
+
+We look at "most positive" words, the words that correspond most strongly with positive reviews.
+Which of the following words is not present in the top 10 "most positive" words?
+[('love', 0.065890762922123258),
+ ('easy', 0.06479458680257838),
+ ('little', 0.045435626308421372),
+ ('loves', 0.044976401394906038),
+ ('well', 0.030135001092107074),
+ ('perfect', 0.029739937104968462),
+ ('old', 0.020077541034775385),
+ ('nice', 0.018408707995268992),
+ ('daughter', 0.017703199905701697)]
+
+Similarly, we look at "most negative" words, the words that correspond most strongly with negative reviews.
+Which of the following words is not present in the top 10 "most negative" words?
+[('product', -0.041511033392108883),
+ ('money', -0.038982037286487116),
+ ('work', -0.033069515294752723),
+ ('even', -0.030051249236035804),
+ ('disappointed', -0.028978976142317068),
+ ('get', -0.028711552980192592),
+ ('back', -0.027742697230661331),
+ ('return', -0.026592778462247283),
+ ('monitor', -0.024482100545891717)]
+
