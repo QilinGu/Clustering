@@ -1,0 +1,23 @@
+(True/False) A linear classifier can only learn positive coefficients.
+False
+
+(True/False) In order to train a logistic regression model, we find the weights that maximize the likelihood of the model.
+True
+
+(True/False) The data likelihood is the product of the probability of the inputs x given the weights w and response y.
+False
+
+Questions 4 and 5 refer to the following scenario.
+Consider the setting where our inputs are 1-dimensional. We have data
+P(yi=+1|xi,w) = 1/(1+exp(−wTh(xi)))
+P(yi=+1|xi,w) = exp(−wTh(xi)/(1+exp(−wTh(xi)))
+
+0.23
+0.367
+
+Which of the following is true about gradient ascent? Select all that apply.
+It is an iterative algorithm
+It finds the maximum by “hill climbing”
+
+
+

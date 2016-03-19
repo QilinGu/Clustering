@@ -1,0 +1,28 @@
+Consider four classifiers, whose classification performance is given by the following table:
+Classifier 1
+
+Suppose a classifier classifies 23100 examples correctly and 1900 examples incorrectly. Compute accuracy by hand. Round your answer to 3 decimal places.
+23100/(25000)
+0.924
+
+(True/False) Accuracy and error measured on the same dataset always sum to 1.
+True
+
+Which of the following is NOT a correct description of complex models?
+Complex models tend to generalize better than simple models.
+
+Which of the following is a symptom of overfitting in the context of logistic regression? Select all that apply.
+Large estimated coefficients
+Complex decision boundary
+Overconfident predictions of class probabilities
+
+Suppose we perform L2 regularized logistic regression to fit a sentiment classifier. Which of the following plots does NOT describe a possible coefficient path? Choose all that apply.
+Note. Assume that the algorithm runs for a wide range of L2 penalty values and each coefficient plot is zoomed out enough to capture all long-term trends.
+c,d
+
+Suppose we perform L1 regularized logistic regression to fit a sentiment classifier. Which of the following plots does NOT describe a possible coefficient path? Choose all that apply.
+Note. Assume that the algorithm runs for a wide range of L1 penalty values and each coefficient plot is zoomed out enough to capture all long-term trends.
+a,d
+
+In the context of L2 regularized logistic regression, which of the following occurs as we increase the L2 penalty λ? Choose all that apply.
+a,c,e
