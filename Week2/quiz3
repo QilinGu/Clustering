@@ -1,0 +1,31 @@
+In the function feature_derivative_with_L2, was the intercept term regularized?
+Yes (Wrong)
+
+Does the term with L2 regularization increase or decrease the log likelihood ℓℓ(w)?
+Dec
+
+Which of the following words is not listed in either positive_words or negative_words?
+quality
+
+
+Questions 5 and 6 use the coefficient plot of the words in positive_words and negative_words.
+(True/False) All coefficients consistently get smaller in size as the L2 penalty is increased.
+True
+
+Questions 5 and 6 use the coefficient plot of the words in positive_words and negative_words.
+(True/False) The relative order of coefficients is preserved as the L2 penalty is increased. (For example, if the coefficient for 'cat' was more positive than that for 'dog', this remains true as the L2 penalty increases.)
+True (False)
+
+
+Questions 7, 8, and 9 ask you about the 6 models trained with different L2 penalties.
+Which of the following models has the highest accuracy on the training data?
+Model trained with L2 penalty = 0
+
+
+Questions 7, 8, and 9 ask you about the 6 models trained with different L2 penalties.
+Which of the following models has the highest accuracy on the validation data?
+Model trained with L2 penalty = 10
+
+Questions 7, 8, and 9 ask you about the 6 models trained with different L2 penalties.
+Does the highest accuracy on the training data imply that the model is the best one?
+No
