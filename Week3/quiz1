@@ -1,0 +1,34 @@
+Questions 1 to 6 refer to the following common scenario:
+
+Let us train a decision tree with this data. Let’s call this tree T1. What feature will we split on at the root?
+x3
+
+Fully train T1 (until each leaf has data points of the same output label). What is the depth of T1?
+3
+
+What is the training error of T1?
+0
+
+Now consider a tree T2, which splits on x1 at the root, and splits on x2 in the 1st level, and has leaves at the 2nd level. Note: this is the XOR function on features 1 and 2. What is the depth of T2?
+2
+
+What is the training error of T2?
+0
+
+Which has smaller depth, T1 or T2?
+T2
+
+Imagine we are training a decision tree, and we are at a node. Each data point is (x1, x2, y), where x1,x2 are features, and y is the label. The data at this node is:
+x2
+
+If you are learning a decision tree, and you are at a node in which all of its data has the same y value, you should
+
+
+Consider two datasets D1 and D2, where D2 has the same data points as D1, but has an extra feature for each data point. Let T1 be the decision tree trained with D1, and T2 be the tree trained with D2. Which of the following is true?
+Too little information to guarantee anything
+ 
+Which of these rules is more appropriate for splitting on real-valued features?
+Split using thresholds (e.g., income < 60k or income >= 60k)
+
+True/False) Decision trees (with depth > 1) are always linear classifiers.
+False
