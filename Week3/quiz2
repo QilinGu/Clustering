@@ -1,0 +1,20 @@
+What was the feature that my_decision_tree first split on while making the prediction for test_data[0]?
+term. 36 months
+
+What was the first feature that lead to a right split of test_data[0]?
+grade.D
+
+What was the last feature split on before reaching a leaf node for test_data[0]?
+grade.D
+
+Rounded to 2nd decimal point (e.g. 0.76), what is the classification error of my_decision_tree on the test_data?
+0.38
+
+What is the feature that is used for the split at the root node?
+term. 36 months
+
+What is the path of the first 3 feature splits considered along the left-most branch of my_decision_tree?
+term. 36 months, grade.A, grade.B
+
+What is the path of the first 3 feature splits considered along the right-most branch of my_decision_tree?
+term. 36 months, grade.D, no third feature because second split resulted in leaf
