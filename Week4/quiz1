@@ -1,0 +1,36 @@
+(True/False) When learning decision trees, smaller depth USUALLY translates to lower training error.
+False
+
+(True/False) If no two data points have the same input values, we can always learn a decision tree that achieves 0 training error.
+True
+
+(True/False) If decision tree T1 has lower training error than decision tree T2, then T1 will always have better test error than T2.
+False
+
+Which of the following is true for decision trees?
+Model complexity increases with depth.
+
+Pruning and early stopping in decision trees is used to
+combat overfitting
+
+Which of the following is NOT an early stopping method?
+Stop when every possible split results in the same amount of error reduction
+
+Consider decision tree T1 learned with minimum node size parameter = 1000. Now consider decision tree T2 trained on the same dataset and parameters, except that the minimum node size parameter is now 100. Which of the following is always true? (W)
+T1 is less complex
+T2 is more complex
+a,b,d
+
+
+Questions 8 to 11 refer to the following common scenario:
+Imagine we are training a decision tree, and we are at a node. Each data point is (x1, x2, y), where x1,x2 are features, and y is the label. The data at this node is:
+2 (W)
+
+If we split on x1, what is the classification error?
+2 (W)
+
+If we split on x2, what is the classification error?
+2 (W)
+
+If our parameter for minimum gain in error reduction is 0.1, do we split or stop early?
+Stop early
