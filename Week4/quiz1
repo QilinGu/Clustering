@@ -20,6 +20,9 @@ Consider decision tree T1 learned with minimum node size parameter = 1000. Now c
 T1 is less complex
 T2 is more complex
 a,b,d
+a,b
+abc
+b,c
 
 
 Questions 8 to 11 refer to the following common scenario:
