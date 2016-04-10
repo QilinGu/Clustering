@@ -1,0 +1,36 @@
+Which of the following is NOT an ensemble method?
+Single decision trees
+
+Each binary classifier in an ensemble makes predictions on an input x as listed in the table below. Based on the ensemble coefficients also listed in the table, what is the final ensemble model's prediction for x?
+-1
+
+(True/False) Boosted decision stumps is a linear classifier.
+True -W
+
+(True/False) For AdaBoost, test error is an appropriate criterion for choosing the optimal number of iterations.
+False
+
+
+In an iteration in AdaBoost, recall that learning the coefficient w_t for learned weak learner f_t is calculated by
+.79	 -W
+0.55
+
+Which of the following classifiers is most accurate as computed on a weighted dataset? A classifier with:
+.1
+
+Imagine we are training a decision stump in an iteration of AdaBoost, and we are at a node. Each data point is (x1, x2, y), where x1,x2 are features, and y is the label. Also included are the weights of the data. The data at this node is:
+0
+
+After each iteration of AdaBoost, the weights on the data points are typically normalized to sum to 1. This is used because
+a
+
+Consider the following 2D dataset with binary labels.
+We train a series of weak binary classifiers using AdaBoost. In one iteration, the weak binary classifier produces the decision boundary as follows:
+2,3
+
+Suppose we are running AdaBoost using decision tree stumps. At a particular iteration, the data points have weights according the figure. (Large points indicate heavy weights.)
+a
+
+
+(True/False) AdaBoost can boost any kind of classifier, not just a decision tree stump.
+True

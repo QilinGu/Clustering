@@ -1,0 +1,30 @@
+True/False) Stochastic gradient ascent often requires fewer passes over the dataset than batch gradient ascent to achieve a similar log likelihood.
+T
+
+(True/False) Choosing a large batch size results in less noisy gradients
+T
+
+(True/False) The set of coefficients obtained at the last iteration represents the best coefficients found so far.
+F
+
+Suppose you obtained the plot of log likelihood below after running stochastic gradient ascent.
+Decrease step size
+
+Suppose you obtained the plot of log likelihood below after running stochastic gradient ascent.
+Increase step size
+
+
+Suppose it takes about 1 milliseconds to compute a gradient for a single example. You run an online advertising company and would like to do online learning via mini-batch stochastic gradient ascent. If you aim to update the coefficients once every 5 minutes, how many examples can you cover in each update? Overhead and other operations take up 2 minutes, so you only have 3 minutes for the coefficient update.
+180000
+
+Which line corresponds to step sizes that are larger than the best? Select all that apply. (X)
+2,4
+
+
+Suppose you run stochastic gradient ascent with two different batch sizes. Which of the two lines below corresponds to the smaller batch size (assuming both use the same step size)
+1
+
+Which of the following is NOT a benefit of stochastic gradient ascent over batch gradient ascent? Choose all that apply.--W
+ 
+Suppose we run the stochastic gradient ascent algorithm described in the lecture with batch size of 100. To make 10 passes over a dataset consisting of 15400 examples, how many iterations does it need to run?
+1540

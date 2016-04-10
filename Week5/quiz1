@@ -1,0 +1,26 @@
+What percentage of the predictions on sample_validation_data did model_5 get correct?
+75
+
+According to model_5, which loan is the least likely to be a safe loan?
+Third
+
+What is the number of false positives on the validation data?
+1618
+
+Using the same costs of the false positives and false negatives, what is the cost of the mistakes made by the boosted tree model (model_5) as evaluated on the validation_set?
+46990000
+
+What grades are the top 5 loans?
+A
+
+Which model has the best accuracy on the validation_data?
+100
+
+Is it always true that the model with the most trees will perform best on the test/validation set?
+No, a model with more trees does not always perform better on the test/validation set.
+
+Does the training error reduce as the number of trees increases?
+Yes
+
+Is it always true that the test/validation error will reduce as the number of trees increases?
+No, the test/validation error will not necessarily always reduce as the number of trees increases.
