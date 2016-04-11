@@ -1,0 +1,41 @@
+Using accuracy as the evaluation metric, was our logistic regression model better than the majority class classifier?
+Yes
+
+How many predicted values in the test set are false positives?
+1443
+
+Given the stipulation, what is the cost associated with the logistic regression classifier's performance on the test set?
+Between $100,000 and $200,000
+
+Out of all reviews in the test set that are predicted to be positive, what fraction of them are false positives? (Round to the second decimal place e.g. 0.25)
+0.04
+
+Based on what we learned in lecture, if we wanted to reduce this fraction of false positives to be below 3.5%, we would:
+Increase threshold for predicting the positive class (y_hat = +1)
+
+
+What fraction of the positive reviews in the test_set were correctly predicted as positive by the classifier? Round your answer to 2 decimal places.
+0.95
+
+What is the recall value for a classifier that predicts +1 for all data points in the test_data?
+0.95(W)
+
+What happens to the number of positive predicted reviews as the threshold increased from 0.5 to 0.9?
+Fewer reviews are predicted to be positive.
+
+Does the recall increase with a higher threshold?
+No
+
+Among all the threshold values tried, what is the smallest threshold value that achieves a precision of 96.5% or better? Round your answer to 3 decimal places.
+0.84
+
+Using threshold = 0.98, how many false negatives do we get on the test_data? (Hint: You may use the graphlab.evaluation.confusion_matrix function implemented in GraphLab Create.)
+5826
+
+Among all the threshold values tried, what is the smallest threshold value that achieves a precision of 96.5% or better for the reviews of data in baby_reviews? Round your answer to 3 decimal places.
+0.86
+
+Is this threshold value smaller or larger than the threshold used for the entire dataset to achieve the same specified precision of 96.5%?
+Larger
+
+

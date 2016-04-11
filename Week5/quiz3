@@ -1,0 +1,14 @@
+If we set the weights α=1 for all data points, how is the weight of mistakes WM(α,ŷ) related to the classification error?
+WM(α,ŷ) = N * [classification error]
+
+Will you get the same model as small_data_decision_tree_subset_20 if you trained a decision tree with only 20 data points from the set of points in subset_20?
+Yes
+
+As each component is trained sequentially, are the component weights monotonically decreasing, monotonically increasing, or neither?
+Neither
+
+Which of the following best describes a general trend in accuracy as we add more and more components? Answer based on the 30 components learned so far.
+Training error goes down in general, with some ups and downs in the middle.
+
+From this plot (with 30 trees), is there massive overfitting as the # of iterations increases?
+No
